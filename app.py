@@ -3,8 +3,9 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import japanize_matplotlib
+import matplotlib_fontja as mfj
 
+mfj.japanize()
 
 st.title("スマブラSP戦績記録アプリ")
 
