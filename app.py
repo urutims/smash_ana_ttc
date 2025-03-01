@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-plt.rcParams['font.family'] = 'Meiryo'
+import japanize_matplotlib
 
 
 st.title("スマブラSP戦績記録アプリ")
